@@ -1,0 +1,26 @@
+.my-content{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+
+.my-content .text-top{
+    font-size: 175%;
+    color: black;
+}
+
+
+.my-content .text-mid{
+    padding-top: 20px;
+}
+
+.my-content .text-mid .star-red{
+    color: red;
+    padding-right: 3px;
+}
+
+.my-content .text-mid .span-btm{
+    padding: 20px;
+    font-size: 75%;
+    color: silver;
+}

@@ -1,0 +1,29 @@
+.title .title-top{
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+.title .title-top .span-left {
+    color: #1ec5ff;
+    font-size: 150%;
+}
+
+.title .title-top .span-mid {
+    font-size: 200%;
+    padding:1px;
+    margin: auto;
+}
+
+.title .title-mid {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 175%;
+    color: white;
+}
+
+.title .title-btm {
+    padding-left: 20px;
+    padding-top: 8px;
+    font-size: 200%;
+}

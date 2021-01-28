@@ -1,12 +1,25 @@
-import logo from './logo.svg';
+import {  Grid } from '@alifd/next';
+import Title from './components/left/title/title';
+import Content from './components/right/content';
 import './App.css';
+
+const { Row, Col } = Grid;
  
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div>hello,react</div>
-             </header>
+    <div className="app">
+      <Row >
+        <Col fixedSpan='25'>
+          <div className='left-menu'>
+            <Title/>
+          </div>
+        </Col>
+        <Col>
+          <div className="main-content">
+          <Content/>
+        </div>
+        </Col>
+      </Row>
     </div>
   );
 }
